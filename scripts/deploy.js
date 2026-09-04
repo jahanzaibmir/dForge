@@ -2,7 +2,7 @@ const hre = require("hardhat");
 const fs = require("fs");
 const path = require("path");
 
-// Public networks need confirmations before Etherscan can see the contract.
+// Public networks need confirmation before Etherscan can see the contract.
 const CONFIRMATIONS = { sepolia: 5 };
 
 const EXPLORERS = { sepolia: "https://sepolia.etherscan.io" };
