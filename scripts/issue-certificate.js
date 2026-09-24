@@ -2,7 +2,7 @@
 //
 //   npx hardhat run scripts/issue-certificate.js --network sepolia
 //
-// Address resolution: CONTRACT_ADDRESS env var, else deployments/<network>.json.
+// Address resolution: CONTRACT_ADDRESS env var, else deployment/<network>.json.
 
 const hre = require("hardhat");
 const fs = require("fs");
